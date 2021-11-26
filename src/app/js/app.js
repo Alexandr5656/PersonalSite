@@ -166,6 +166,7 @@
 
         
         $.post("src/php/sendmail.php", params, function(data) {
+          console.log(data)
           var dt = JSON.parse(data);
           if (dt.status == "error") {
             var alert = init_alert(
