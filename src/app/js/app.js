@@ -163,7 +163,6 @@
         var params = $el.serialize();
 
         init_btn_loading($btn, true);
-        console.log(params)
         
         $.post("src/php/sendmail.php", params, function(data) {
           var dt = JSON.parse(data);
