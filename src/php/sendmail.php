@@ -56,7 +56,7 @@ $headers = 'Reply-To: '.$from;
 if ($json['status']  === 'success') {  
   if (!@mail($to_myemail, $subject, $message,  $headers)) {
     $m_err = error_get_last()['message'];  
-    $json = my_set_error($json, 'Unable to send Email! '.$m_err.$to_myemail.$subject.$message.$headers);
+    $json = my_set_error($json, 'Unable to send Email! ee'.$m_err.$to_myemail.$subject.$message.$headers);
   }  
 }
 
