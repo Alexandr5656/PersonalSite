@@ -146,7 +146,7 @@
     var $typed = $("#typed");
     if ($typed.length) {
       var typed = new Typed("#typed", {
-        strings: ["developer", "freelancer", "engineer", "researcher"],
+        strings: ["developer", "freelancer", "computer engineer", "researcher"],
         loop: true,
         typeSpeed: 70
       });
